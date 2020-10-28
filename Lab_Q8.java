@@ -1,23 +1,41 @@
 /* Program to print the factorial of first 'n' numbers */
 
 import java.util.Scanner;
+
 class Lab_Q8
+
 {
+
     public static void main(String args[])
+
     {
-        int i=1,n; double f=1;
+
+        int i=1,n; 
+
+        long f=1; // use double when entering limit more than 20
+
         Scanner sc = new Scanner(System.in);
+
         System.out.print("Enter a number as a limit: ");
+
         n = sc.nextInt();
+
         while(i<n)
+
         {
-        	for(i=1;i<=n;i++)
-        	{
+
+        	for(i=1;i<=n;i++)        	{
+
         		f*=i;
+
         		System.out.println("The Factorial of "+i+" is : "+f);
+
         	}
+
         }
+
     }
+
 }
 
 
