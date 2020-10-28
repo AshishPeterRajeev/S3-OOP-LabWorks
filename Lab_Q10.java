@@ -37,7 +37,7 @@ class Lab_Q10
         do
         {
             l.check_Arm();
-            System.out.print("\nDo you want check another number? (Y/N) : ");
+            System.out.print("\nDo you want to check another number? (Y/N) : ");
             c = sc.next().charAt(0);
             System.out.println();
         }
