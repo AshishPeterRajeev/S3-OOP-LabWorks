@@ -24,7 +24,8 @@ class Lab_Q8
 
         {
 
-        	for(i=1;i<=n;i++)        	{
+        	for(i=1;i<=n;i++)        	
+            {
 
         		f*=i;
 
