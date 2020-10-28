@@ -30,7 +30,7 @@ class Lab_Q9
         do
         {
             l.check_Pal();
-            System.out.print("\nDo you want check another number? (Y/N) : ");
+            System.out.print("\nDo you want to check another number? (Y/N) : ");
             c = sc.next().charAt(0);
             System.out.println();
         }
