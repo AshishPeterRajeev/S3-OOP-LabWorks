@@ -15,13 +15,13 @@ class Lab_Q10
         {
             int d1 = n1%10;
             c++;
-            n1/ = 10;
+            n1/= 10;
         }
         while(n!=0)
         {
             d = n%10;
             r+=Math.pow(d,c);
-            n/ = 10;
+            n/= 10;
         }
         if(r==n2)
           System.out.println("Entered number is Armstrong");
